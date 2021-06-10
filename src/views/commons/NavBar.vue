@@ -1,0 +1,120 @@
+<template>
+  <header class="header">
+    <!--start navbar-->
+    <nav
+        class="navbar navbar-expand-lg fixed-top"
+        v-bind:class="{
+                affix: hasAffix,
+                'custom-nav': coloredLogo,
+                'bg-transparent': !coloredLogo,
+                'white-bg': coloredLogo,
+            }"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/"
+        ><img
+            :src="
+                            coloredLogo
+                                ? 'img/myobu-5@2x.png'
+                                : 'img/myobu-5@2x.png'
+                        "
+            width="120"
+            alt="logo"
+            class="img-fluid"
+        /></a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            @click="mobileNavClicked"
+            v-bind:class="{ collapsed: collapsed }"
+        >
+          <span class="ti-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse main-menu h-auto" v-bind:class="{ show: !collapsed }"
+             id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#home">{{ $t('home') }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#tokenomics">{{ $t('tokenomics') }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#tax">{{ $t('tax') }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#metamask">{{ $t('howToBuy') }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#roadmap">{{ $t('roadmap') }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#audit">{{ $t('audit') }}</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ $t('language') }}
+              </a>
+              <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownHome">
+                <a href="#" v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
+                  <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}
+                </a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!--end navbar-->
+  </header>
+</template>
+
+<script>
+import i18n from "@/plugins/i18n";
+
+export default {
+  props: {
+    coloredLogo: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  data: function () {
+    return {
+      languages: [
+        {flag: 'us', language: 'en', title: 'English'},
+        {flag: 'cn', language: 'cn', title: 'Chinese'}
+      ],
+      windowTop: 0,
+      collapsed: true,
+    };
+  },
+  mounted() {
+    window.addEventListener("scroll", this.onScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.onScroll);
+  },
+  methods: {
+    changeLocale(locale) {
+      i18n.locale = locale;
+    },
+    onScroll: function () {
+      this.windowTop = window.top.scrollY;
+    },
+    mobileNavClicked: function () {
+      this.collapsed = !this.collapsed;
+    },
+  },
+  computed: {
+    hasAffix: function () {
+      return this.windowTop > 0;
+    },
+  },
+};
+</script>
+
