@@ -13,6 +13,12 @@ const routes = [
     component: Myobu,
     meta: { title: 'Myōbu | $MYOBU' }
   },
+  {
+    path: '*',
+    name: 'catchAll',
+    component: Myobu,
+    meta: { title: 'Myōbu | $MYOBU' }
+  }
 ]
 
 const router = new VueRouter({
