@@ -5,6 +5,13 @@ import FlagIcon from 'vue-flag-icon';
 import './registerServiceWorker';
 import router from './router';
 import store from './store';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faTelegramPlane, faTwitter, faReddit, faDiscord, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+library.add(faTwitter, faTelegramPlane, faReddit,faDiscord, faInstagram, faTiktok );
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 // ------------ css ----------
 import './assets/css/bootstrap.min.css';

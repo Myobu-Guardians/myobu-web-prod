@@ -11,23 +11,32 @@
 
               <div class="social-list-wrap">
                 <ul class="social-list list-inline list-unstyled">
-                  <li class="list-inline-item"><a href="https://t.me/MyobuOfficial" target="_blank"
-                                                  title="Telegram"><span
-                      class="fab fa-telegram-plane"></span></a>
+                  <li class="list-inline-item">
+                    <a href="https://t.me/MyobuOfficial" target="_blank" title="Telegram">
+                      <font-awesome-icon :icon="['fab', 'telegram-plane']"/>
+                    </a>
                   </li>
-                  <li class="list-inline-item"><a href="https://twitter.com/MyobuOfficial" target="_blank"
-                                                  title="Twitter"><span
-                      class="fab fa-twitter"></span></a></li>
-                  <li class="list-inline-item"><a href="https://www.reddit.com/r/Myobu/" target="_blank"
-                                                  title="Reddit"><span
-                      class="fab fa-reddit"></span></a></li>
-                  <li class="list-inline-item"><a href="https://www.instagram.com/myobu_official/"
-                                                  target="_blank"
-                                                  title="Instagram"><span class="fab fa-instagram"></span></a>
-                  <li class="list-inline-item"><a
-                      href="https://www.tiktok.com/@myobu_official?lang=en&is_copy_url=1&is_from_webapp=v1"
-                      target="_blank"
-                      title="TikTok"><span class="fab fa-tiktok"></span></a>
+                  <li class="list-inline-item">
+                    <a href="https://twitter.com/MyobuOfficial" target="_blank" title="Twitter">
+                      <font-awesome-icon  :icon="['fab', 'twitter']" />
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.reddit.com/r/Myobu/" target="_blank" title="Reddit">
+                      <font-awesome-icon  :icon="['fab', 'reddit']" />
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.instagram.com/myobu_official/" target="_blank" title="Instagram">
+                      <font-awesome-icon  :icon="['fab', 'instagram']" />
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.tiktok.com/@myobu_official?lang=en&is_copy_url=1&is_from_webapp=v1"
+                       target="_blank"
+                       title="TikTok">
+                      <font-awesome-icon  :icon="['fab', 'tiktok']" />
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -51,14 +60,16 @@
 </template>
 
 <script>
+
+
 export default {
-    name: "SiteFooter",
+  name: "SiteFooter",
 };
 </script>
 
 <style scoped lang="scss">
 .bg-footer-custom {
-    background: url("../../assets/img/footer-bg.png") no-repeat center top /
+  background: url("../../assets/img/footer-bg.png") no-repeat center top /
         cover !important;
 }
 </style>
