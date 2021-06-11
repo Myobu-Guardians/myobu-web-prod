@@ -32,7 +32,7 @@
         <div class="col-md-4 col-lg-4">
           <div class="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
             <h5>{{ $t('fairLaunch') }}</h5>
-            <p>{{ $t('failLaunchText') }}</p>
+            <p>{{ $t('fairLaunchText') }}</p>
           </div>
         </div>
         <div class="col-md-4 col-lg-4">
