@@ -16,7 +16,7 @@ const messages = {
         trillion: 'Trillion',
         totalSupply: 'Total supply',
         redRateText: 'Redistribution rate increases on consecutive sells.',
-        fairLaunch: 'Fail launch',
+        fairLaunch: 'Fair launch',
         fairLaunchText: 'No presale. No developers tokens',
         safe: 'Safe',
         safeText: 'Liquidity locked and ownership renounced',
