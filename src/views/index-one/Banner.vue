@@ -2,7 +2,7 @@
   <section class="hero-section pt-100 background-img banner-1-bg" id="home">
     <div class="container">
       <div class="row align-items-center justify-content-between py-5">
-        <div class="col-md-7 col-lg-6">
+        <div class="col-md-6 col-lg-6">
           <div class="hero-content-left text-white">
             <h1 class="text-white">
               <span>Myōbu</span>
@@ -18,7 +18,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-5 col-lg-5">
+        <div class="col-md-6 col-lg-6">
           <div class="hero-animation-img">
             <img src="img/myobu.png" alt="app" class="img-fluid"/>
           </div>

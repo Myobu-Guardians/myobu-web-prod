@@ -56,7 +56,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ $t('language') }}
+                <font-awesome-icon :icon="['fas', 'language']" size="lg"/>
               </a>
               <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownHome">
                 <a href="#" v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
@@ -87,7 +87,10 @@ export default {
     return {
       languages: [
         {flag: 'us', language: 'en', title: 'English'},
-        {flag: 'cn', language: 'cn', title: 'Chinese'}
+        {flag: 'cn', language: 'cn', title: 'Chinese'},
+        {flag: 'es', language: 'es', title: 'Spanish'},
+        {flag: 'kr', language: 'kr', title: 'Korean'},
+        {flag: 'de', language: 'de', title: 'Deutsch'}
       ],
       windowTop: 0,
       collapsed: true,
@@ -95,12 +98,14 @@ export default {
   },
   mounted() {
     window.addEventListener("scroll", this.onScroll);
+    if(localStorage.Lang != null) i18n.locale = localStorage.Lang;
   },
   beforeDestroy() {
     window.removeEventListener("scroll", this.onScroll);
   },
   methods: {
     changeLocale(locale) {
+      localStorage.Lang = locale;
       i18n.locale = locale;
     },
     onScroll: function () {

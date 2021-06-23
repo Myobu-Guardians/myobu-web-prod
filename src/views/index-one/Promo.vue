@@ -18,7 +18,7 @@
         <div class="col-md-4 col-lg-4">
           <div class="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
             <h5>1 {{ $t('trillion') }}</h5>
-            <p>{{ $t('Total supply') }}</p>
+            <p>{{ $t('totalSupply') }}</p>
           </div>
         </div>
         <div class="col-md-4 col-lg-4">
