@@ -87,9 +87,9 @@ export default {
     return {
       languages: [
         {flag: 'us', language: 'en', title: 'English'},
-        {flag: 'cn', language: 'cn', title: 'Chinese'},
-        {flag: 'es', language: 'es', title: 'Spanish'},
-        {flag: 'kr', language: 'kr', title: 'Korean'},
+        {flag: 'cn', language: 'cn', title: '中文'},
+        {flag: 'es', language: 'es', title: 'Español'},
+        {flag: 'kr', language: 'kr', title: '한국어'},
         {flag: 'de', language: 'de', title: 'Deutsch'}
       ],
       windowTop: 0,

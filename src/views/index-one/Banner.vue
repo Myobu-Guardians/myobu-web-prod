@@ -45,7 +45,7 @@ export default {
     return {
       languages: [
         {flag: 'us', language: 'en', title: 'English'},
-        {flag: 'cn', language: 'cn', title: 'Chinese'}
+        {flag: 'cn', language: 'cn', title: '中文'}
       ],
       showModal: false,
     };
