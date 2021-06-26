@@ -38,6 +38,20 @@
                       <font-awesome-icon  :icon="['fab', 'tiktok']" />
                     </a>
                   </li>
+                  <li class="list-inline-item">
+                    <a href="https://myobu.medium.com/"
+                       target="_blank"
+                       title="Medium">
+                      <font-awesome-icon :icon="['fab', 'medium']"  :style="{ color: 'white' }"/>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.facebook.com/Myobu-101060582216135"
+                       target="_blank"
+                       title="Facebook">
+                      <font-awesome-icon :icon="['fab', 'facebook']" :style="{ color: 'white' }"/>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

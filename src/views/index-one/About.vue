@@ -38,7 +38,13 @@
           </div>
           <div class="col-md-5">
             <div class="about-content-right">
-              <img src="img/metamask.png" alt="about us" class="img-fluid">
+              <iframe
+                  src="https://app.uniswap.org/#/swap?outputCurrency=0x75D12E4F91Df721faFCae4c6cD1d5280381370AC&use=V2"
+                  height="660px"
+                  width="100%"
+                  style="border: 0; margin: 0 auto; display: block; border-radius: 10px; max-width: 600px; min-width: 300px;"
+                  id="myobu-uniswap-integration"
+              />
             </div>
           </div>
         </div>
@@ -49,7 +55,7 @@
 
 <script>
 export default {
-    name: "About",
+  name: "About",
 };
 </script>
 

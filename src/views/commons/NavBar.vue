@@ -90,7 +90,8 @@ export default {
         {flag: 'cn', language: 'cn', title: '中文'},
         {flag: 'es', language: 'es', title: 'Español'},
         {flag: 'kr', language: 'kr', title: '한국어'},
-        {flag: 'de', language: 'de', title: 'Deutsch'}
+        {flag: 'de', language: 'de', title: 'Deutsch'},
+        {flag: 'tr', language: 'tr', title: 'Turkish'}
       ],
       windowTop: 0,
       collapsed: true,

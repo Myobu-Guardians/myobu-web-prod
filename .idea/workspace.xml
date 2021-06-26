@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9326a4c-5caf-4746-a676-f49e84ae646f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/language.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.7837b83f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.7837b83f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.0a96aca7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.0a96aca7.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/precache-manifest.2850e59021e7ce699561a1df9f5b30b9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugins/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/i18n.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/commons/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/commons/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/commons/SiteFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/commons/SiteFooter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index-one/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-one/About.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/index-one/Banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-one/Banner.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-one/Promo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-one/Promo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +71,8 @@
       <workItem from="1623403838339" duration="2236000" />
       <workItem from="1623484451817" duration="497000" />
       <workItem from="1623676306048" duration="2262000" />
-      <workItem from="1624000639385" duration="2769000" />
+      <workItem from="1624000639385" duration="6366000" />
+      <workItem from="1624697158949" duration="147000" />
     </task>
     <servers />
   </component>
