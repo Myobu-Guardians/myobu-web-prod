@@ -387,7 +387,7 @@ const messages = {
         phase2: 'フェーズ２',
         blog: 'ブログの開設',
         k5Holders: '5,000人のホルダー',
-        k5Tg: 'テレグラムグループの会員1000人',
+        k5Tg: 'テレグラムグループの会員5000人',
         cg: 'Coingeckoへリスト',
         cmc: 'Coinmarketcapへリスト',
         phase3: 'フェーズ３',
