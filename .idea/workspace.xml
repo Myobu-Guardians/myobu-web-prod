@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9326a4c-5caf-4746-a676-f49e84ae646f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/files/myobu-whitepaper.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugins/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/i18n.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/commons/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/commons/NavBar.vue" afterDir="false" />
     </list>
@@ -72,6 +70,7 @@
       <workItem from="1624697158949" duration="485000" />
       <workItem from="1624700978732" duration="4476000" />
       <workItem from="1624893525846" duration="1432000" />
+      <workItem from="1624981757029" duration="326000" />
     </task>
     <servers />
   </component>

@@ -94,7 +94,8 @@ export default {
         {flag: 'es', language: 'es', title: 'Español'},
         {flag: 'kr', language: 'kr', title: '한국어'},
         {flag: 'de', language: 'de', title: 'Deutsch'},
-        {flag: 'tr', language: 'tr', title: 'Turkish'}
+        {flag: 'tr', language: 'tr', title: 'Turkish'},
+        {flag: 'jp', language: 'jp', title: 'Japanese'}
       ],
       windowTop: 0,
       collapsed: true,
