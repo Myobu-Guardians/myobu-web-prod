@@ -53,6 +53,9 @@
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#audit">{{ $t('audit') }}</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link btn google-play-btn" target="_blank" href="files/myobu-whitepaper.pdf">{{ $t('whitepaper') }}</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

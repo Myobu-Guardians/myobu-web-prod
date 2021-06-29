@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9326a4c-5caf-4746-a676-f49e84ae646f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/files/myobu-whitepaper.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugins/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/i18n.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/commons/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/commons/NavBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/commons/SiteFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/commons/SiteFooter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-one/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-one/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-one/Banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-one/Banner.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="lf;" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/files" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,8 +51,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/files" />
+      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
   </component>
@@ -72,7 +69,9 @@
       <workItem from="1623484451817" duration="497000" />
       <workItem from="1623676306048" duration="2262000" />
       <workItem from="1624000639385" duration="6366000" />
-      <workItem from="1624697158949" duration="147000" />
+      <workItem from="1624697158949" duration="485000" />
+      <workItem from="1624700978732" duration="4476000" />
+      <workItem from="1624893525846" duration="1432000" />
     </task>
     <servers />
   </component>
