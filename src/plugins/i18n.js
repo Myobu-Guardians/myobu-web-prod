@@ -78,7 +78,7 @@ const messages = {
         fairLaunch: '公平发布',
         fairLaunchText: '没有预售，开发者不持有代币',
         safe: '安全',
-        safeText: 'Uniswap 资金池已经锁定，管理权限已经丢弃。 ',
+        safeText: 'Uniswap 资金池已经锁定，管理权限已经丢弃',
         devFee: '开发者费用',
         devFeeText: '购买时开发团队收取交易额 6%；24 小时内第 1 次卖出代币时开发团队收取交易额的 5%，第 2-4 次卖出时收取 10%',
         antiDumpTitle: '$MYOBU 反抛售保护',
