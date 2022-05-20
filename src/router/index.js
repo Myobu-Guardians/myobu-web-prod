@@ -1,12 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import Myobu from '../pages/indices/Myobu.vue';
 import StakingPage from "@/pages/indices/StakingPage";
 import StakingCreatePage from "@/pages/indices/StakingCreatePage";
 import StakingCreatePageMyobuETHPage from "@/pages/indices/StakingCreatePageMyobuETHPage";
 import StakingManagePage from "@/pages/indices/StakingManagePage";
-import Hikari from "@/pages/indices/Hikari";
 import StakingBSCPage from "@/pages/indices/StakingBSCPage";
 import StakingBSCCreatePage from "@/pages/indices/StakingBSCCreatePage";
 import StakingCreatePageMyobuBNBPage from "@/pages/indices/StakingCreatePageMyobuBNBPage";
@@ -18,18 +16,6 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    name: 'Myobu',
-    component: Myobu,
-    meta: { title: 'Myōbu | $MYOBU' }
-  },
-  {
-    path: '/hikari',
-    name: 'Hikari',
-    component: Hikari,
-    meta: { title: 'Hikari | $MYOBU' }
-  },
-  {
-    path: '/staking',
     name: 'Staking',
     component: StakingChoosePage,
     meta: { title: 'Staking | Myōbu | $MYOBU' }
@@ -84,8 +70,8 @@ const routes = [
   {
     path: '*',
     name: 'catchAll',
-    component: Myobu,
-    meta: { title: 'Myōbu | $MYOBU' }
+    component: StakingChoosePage,
+    meta: { title: 'Staking | Myōbu | $MYOBU' }
   }
 ]
 
