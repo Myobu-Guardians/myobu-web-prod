@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1</title>
+    <defs>
+        <polygon id="path-1" points="0 0 25.0576184 0 25.0576184 20.2405649 0 20.2405649"></polygon>
+        <polygon id="path-3" points="0 0 10.1349702 0 10.1349702 44.0295284 0 44.0295284"></polygon>
+        <polygon id="path-5" points="0 0 25.0575883 0 25.0575883 20.2405649 0 20.2405649"></polygon>
+        <polygon id="path-7" points="0 0 10.1346388 0 10.1346388 44.0295284 0 44.0295284"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="myobu-desktop-home" transform="translate(-1000.000000, -1091.000000)">
+            <g id="1" transform="translate(1000.000000, 1091.000000)">
+                <g id="Group-3" transform="translate(0.000000, 39.759435)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#CDBDFF" mask="url(#mask-2)" points="5.57912179 0 -0.000150636439 4.27009332 25.0576184 20.2405649"></polygon>
+                </g>
+                <g id="Group-6">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <polygon id="Fill-4" fill="#8F75F9" mask="url(#mask-4)" points="5.57912179 39.7594351 10.1349702 -0.000121733114 -0.000150636439 44.0295284"></polygon>
+                </g>
+                <g id="Group-9" transform="translate(34.942412, 39.759435)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-8"></g>
+                    <polygon id="Fill-7" fill="#CDBDFF" mask="url(#mask-6)" points="19.4784966 0 25.0577691 4.27009332 0 20.2405649"></polygon>
+                </g>
+                <g id="Group-12" transform="translate(49.865361, 0.000000)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-11"></g>
+                    <polygon id="Fill-10" fill="#8F75F9" mask="url(#mask-8)" points="4.55554719 39.7594351 0 -0.000121733114 10.1348196 44.0295284"></polygon>
+                </g>
+                <polygon id="Fill-13" fill="#CDBDFF" points="15.0159524 35.3255194 24.8684793 38.6494421 29.3005046 54.7739061"></polygon>
+                <polygon id="Fill-15" fill="#CDBDFF" points="44.9840777 35.3255194 35.1315508 38.6494421 30.6998268 54.7739061"></polygon>
+                <polygon id="Fill-17" fill="#CDBDFF" points="23.431016 3.04332786e-05 30.0002711 13.4600609 30.0002711 29.698954"></polygon>
+                <polygon id="Fill-19" fill="#8F75F9" points="36.5690442 3.04332786e-05 30.0000904 13.4600609 30.0000904 29.698954"></polygon>
+                <polygon id="Fill-21" fill="#8F75F9" points="16.9153875 7.38469592 15.015862 35.325489 24.8683889 38.6494117"></polygon>
+                <polygon id="Fill-23" fill="#8F75F9" points="43.0846426 7.38469592 35.1316412 38.6494117 44.9841681 35.325489"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

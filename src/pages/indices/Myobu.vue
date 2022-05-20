@@ -3,12 +3,12 @@
     <nav-bar/>
     <div class="main">
       <banner/>
-      <promo/>
-      <download/>
-      <about/>
-      <pricing/>
-      <features/>
-      <subscribe/>
+      <gamefi/>
+      <blessings/>
+      <tokenomics/>
+      <roadmap/>
+      <buy/>
+      <press/>
       <site-footer/>
     </div>
   </div>
@@ -17,25 +17,25 @@
 <script>
 import NavBar from "../../views/commons/NavBar";
 import Banner from "../../views/index-one/Banner";
-import Promo from "../../views/index-one/Promo";
-import About from "../../views/index-one/About";
-import Features from "../../views/index-one/Features";
-import Download from "../../views/index-one/Download";
-import Pricing from "../../views/index-one/Pricing";
-import Subscribe from "../../views/commons/Subscribe";
+import Tokenomics from "../../views/index-one/Tokenomics";
+import Buy from "../../views/index-one/Buy";
+import Gamefi from "../../views/index-one/Gamefi";
+import Roadmap from "../../views/index-one/Roadmap";
+import Blessings from "@/views/index-one/Blessings";
 import SiteFooter from "../../views/commons/SiteFooter";
+import Press from "@/views/index-one/Press";
 
 export default {
   name: "Myobu",
   components: {
+    Press,
     NavBar,
     Banner,
-    Promo,
-    Download,
-    About,
-    Pricing,
-    Features,
-    Subscribe,
+    Tokenomics,
+    Gamefi,
+    Buy,
+    Roadmap,
+    Blessings,
     SiteFooter,
   },
   data() {

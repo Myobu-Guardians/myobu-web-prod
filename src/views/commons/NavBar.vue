@@ -15,10 +15,10 @@
         ><img
             :src="
                             coloredLogo
-                                ? 'img/myobu-5@2x.png'
-                                : 'img/myobu-5@2x.png'
+                                ? 'img/redesign/logo.png'
+                                : 'img/redesign/logo.png'
                         "
-            width="120"
+            width="150"
             alt="logo"
             class="img-fluid"
         /></a>
@@ -36,37 +36,50 @@
              id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#home">{{ $t('home') }}</a>
+              <a class="nav-link page-scroll" href="/">{{ $t('home') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#tokenomics">{{ $t('tokenomics') }}</a>
+              <a class="nav-link page-scroll" href="#gamefi" v-scroll-to="'#gamefi'">GameFi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#tax">{{ $t('tax') }}</a>
+              <a class="nav-link page-scroll" href="#tokenomics" v-scroll-to="'#tokenomics'">{{ $t('tokenomics') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#metamask">{{ $t('howToBuy') }}</a>
+              <a class="nav-link page-scroll" href="#roadmap" v-scroll-to="'#roadmap'">{{ $t('roadmap') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#roadmap">{{ $t('roadmap') }}</a>
+              <a class="nav-link page-scroll" href="#buy" v-scroll-to="'#buy'">{{ $t('howToBuy') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#audit">{{ $t('audit') }}</a>
+              <router-link class="nav-link" to="/hikari">Hikari</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn google-play-btn" target="_blank" href="files/myobu-whitepaper.pdf">{{ $t('whitepaper') }}</a>
+              <router-link class="nav-link" to="/staking">Staking</router-link>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
-                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <font-awesome-icon :icon="['fas', 'language']" size="lg"/>
-              </a>
-              <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownHome">
-                <a href="#" v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
-                  <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}
-                </a>
-              </div>
+<!--            <li class="nav-item dropdown">-->
+<!--              <a class="nav-link page-scroll dropdown-toggle" href="#" id="communityDropdown" role="button"-->
+<!--                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                Community-->
+<!--              </a>-->
+<!--              <div class="dropdown-menu submenu" aria-labelledby="communityDropdown">-->
+<!--                <a class="nav-link" href="https://forum.myobu.io">{{ $t('forum') }}</a>-->
+<!--&lt;!&ndash;                <a class="nav-link page-scroll" href="https://app.myobu.io">{{ $t('dashboard') }}</a>&ndash;&gt;-->
+<!--              </div>-->
+<!--            </li>-->
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="https://shop.myobu.io">Shop</a>
             </li>
+<!--            <li class="nav-item dropdown">-->
+<!--              <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownHome" role="button"-->
+<!--                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                <font-awesome-icon :icon="['fas', 'language']" size="lg"/>-->
+<!--              </a>-->
+<!--              <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownHome">-->
+<!--                <a href="#" v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">-->
+<!--                  <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </li>-->
           </ul>
 
         </div>
@@ -103,7 +116,7 @@ export default {
   },
   mounted() {
     window.addEventListener("scroll", this.onScroll);
-    if(localStorage.Lang != null) i18n.locale = localStorage.Lang;
+    // if(localStorage.Lang != null) i18n.locale = localStorage.Lang;
   },
   beforeDestroy() {
     window.removeEventListener("scroll", this.onScroll);
