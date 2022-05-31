@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="main">
+      <nav-bar />
       <staking-b-s-c-manage/>
     </div>
   </div>
@@ -8,11 +9,13 @@
 
 <script>
 import StakingBSCManage from "@/views/staking/StakingBSCManage";
+import NavBar from "@/views/commons/NavBar";
 
 export default {
   name: "StakingBSCManagePage",
   components: {
     StakingBSCManage,
+    NavBar
   },
   data() {
     return {

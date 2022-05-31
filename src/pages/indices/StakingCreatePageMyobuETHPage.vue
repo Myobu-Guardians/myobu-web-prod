@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="main">
+      <nav-bar />
       <staking-create-myobu-e-t-h/>
     </div>
   </div>
@@ -8,11 +9,13 @@
 
 <script>
 import StakingCreateMyobuETH from "@/views/staking/StakingCreateMyobuETH";
+import NavBar from "@/views/commons/NavBar";
 
 export default {
   name: "StakingCreateMyobuETHPage",
   components: {
     StakingCreateMyobuETH,
+    NavBar,
   },
   data() {
     return {
