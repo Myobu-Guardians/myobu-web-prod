@@ -11,7 +11,7 @@
             }"
     >
       <div class="container">
-        <a class="navbar-brand" href="/"
+        <a class="navbar-brand" href="https://myobu.io/"
         ><img
             :src="
                             coloredLogo
