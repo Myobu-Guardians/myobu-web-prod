@@ -2271,7 +2271,7 @@ select.form-control.has-value {
     position: absolute;
     background-image: url("../img/landing.gif"),
       linear-gradient(118deg, #110825, #660baa 73%);
-    background-position-y: 120%;
+    background-position-y: 118%;
     background-position-x: 56%;
     background-repeat: no-repeat;
     background-size: auto;
@@ -2280,11 +2280,25 @@ select.form-control.has-value {
     left: 0;
     bottom: 0;
     transform-origin: bottom;
-    transform: translateX(0%) scale(4);
+    transform: translateX(0%) scale(3);
     width: 100vw;
     height: 100vh;
     filter: blur(0.6px);
     -webkit-filter: blur(0.6px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #home.background-img:before {
+    background-position-y: 114%;
+    transform: translateX(0%) scale(4);
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #home.background-img:before {
+    background-position-y: 116%;
+    transform: translateX(0%) scale(5);
   }
 }
 
