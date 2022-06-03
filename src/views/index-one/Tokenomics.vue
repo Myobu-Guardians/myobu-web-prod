@@ -1,6 +1,6 @@
 <template>
   <section
-    class="promo-section ptb-100 dark-bg-text secondary-bg"
+    class="promo-section pb-100 dark-bg-text secondary-bg"
     id="tokenomics"
   >
     <div class="container">

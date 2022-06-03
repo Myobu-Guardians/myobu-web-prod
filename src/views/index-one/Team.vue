@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-hidden" id="buy">
-    <section id="about" class="about-us ptb-150 secondary-bg">
+    <section id="about" class="about-us pt-150 secondary-bg">
       <div class="container">
         <h2 class="text-white text-center">Team</h2>
                     <div class="hero-animation-img">
