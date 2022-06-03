@@ -6,11 +6,6 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <img
-            src="img/redesign/tokenomics.png"
-            class="img-fluid"
-            style="max-width: 30%"
-          />
           <div class="clearfix"></div>
           <div class="mt-5">
             <h1 class="text-white">TOKENOMICS</h1>
@@ -29,8 +24,14 @@
             <!--                </ul>-->
             <!--              </div>-->
             <!--            </div>-->
-            <div class="col-md-3 col-lg-2"></div>
-            <div class="col-md-6 col-lg-8">
+            <div class="col-md-6 col-lg-6 text-center">
+              <img
+                src="img/redesign/tokenomics.png"
+                class="img-fluid"
+                style="max-width: 80%"
+              />
+            </div>
+            <div class="col-md-6 col-lg-6">
               <div
                 class="
                   single-promo single-promo-hover single-promo-1
@@ -53,7 +54,7 @@
                     <div class="name">Token Networks</div>
                     <div class="value">
                       <ul>
-                        <li style="margin-left:0;margin-bottom:0;">
+                        <li style="margin-left: 0; margin-bottom: 0">
                           <div>
                             <div>ERC20 (Ethereum)</div>
                             <a
@@ -63,7 +64,7 @@
                             >
                           </div>
                         </li>
-                        <li style="margin-left:0;margin-bottom:0;">
+                        <li style="margin-left: 0; margin-bottom: 0">
                           <div>
                             <div>BEP20 (Binance Smart Chain)</div>
                             <a
