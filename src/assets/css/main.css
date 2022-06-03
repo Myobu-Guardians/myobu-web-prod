@@ -2271,7 +2271,7 @@ select.form-control.has-value {
     position: absolute;
     background-image: url("../img/landing.gif"),
       linear-gradient(118deg, #110825, #660baa 73%);
-    background-position-y: 118%;
+    background-position-y: 116%;
     background-position-x: 56%;
     background-repeat: no-repeat;
     background-size: auto;
