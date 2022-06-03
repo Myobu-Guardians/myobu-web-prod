@@ -5,6 +5,7 @@
       <banner/>
       <gamefi/>
       <team />
+      <more-about-myobu />
       <tokenomics/>
       <roadmap/>
       <press/>
@@ -19,6 +20,7 @@ import Banner from "../../views/index-one/Banner";
 import Tokenomics from "../../views/index-one/Tokenomics";
 import Gamefi from "../../views/index-one/Gamefi";
 import Team from "../../views/index-one/Team.vue"
+import MoreAboutMyobu from "@/views/index-one/MoreAboutMyobu";
 import Roadmap from "../../views/index-one/Roadmap";
 import SiteFooter from "../../views/commons/SiteFooter";
 import Press from "@/views/index-one/Press";
@@ -34,6 +36,7 @@ export default {
     Team,
     Roadmap,
     SiteFooter,
+    MoreAboutMyobu
   },
   data() {
     return {
