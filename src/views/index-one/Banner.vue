@@ -1,8 +1,5 @@
 <template>
-  <section class="hero-section pt-100 banner-1-bg" id="home">
-    <video class="banner-video" src="/videos/landing.mp4" autoplay loop>
-      <source src="/videos/landing.mp" type="video/mp4" />
-    </video>
+  <section class="hero-section pt-100 background-img banner-1-bg" id="home">
     <div class="container">
       <div class="row align-items-center justify-content-between py-5">
         <div class="col-md-12 col-lg-7 col-sm-12">
