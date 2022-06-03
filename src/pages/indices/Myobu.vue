@@ -4,10 +4,9 @@
     <div class="main">
       <banner/>
       <gamefi/>
-      <blessings/>
+      <team />
       <tokenomics/>
       <roadmap/>
-      <buy/>
       <press/>
       <site-footer/>
     </div>
@@ -18,10 +17,9 @@
 import NavBar from "../../views/commons/NavBar";
 import Banner from "../../views/index-one/Banner";
 import Tokenomics from "../../views/index-one/Tokenomics";
-import Buy from "../../views/index-one/Buy";
 import Gamefi from "../../views/index-one/Gamefi";
+import Team from "../../views/index-one/Team.vue"
 import Roadmap from "../../views/index-one/Roadmap";
-import Blessings from "@/views/index-one/Blessings";
 import SiteFooter from "../../views/commons/SiteFooter";
 import Press from "@/views/index-one/Press";
 
@@ -33,9 +31,8 @@ export default {
     Banner,
     Tokenomics,
     Gamefi,
-    Buy,
+    Team,
     Roadmap,
-    Blessings,
     SiteFooter,
   },
   data() {
