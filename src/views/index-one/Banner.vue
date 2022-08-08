@@ -63,38 +63,12 @@
               </li>
               <li class="list-inline-item">
                 <a
-                  href="https://www.reddit.com/r/Myobu/"
-                  target="_blank"
-                  title="Reddit"
-                >
-                  <font-awesome-icon
-                    :icon="['fab', 'reddit']"
-                    size="lg"
-                    :style="{ color: 'white' }"
-                  />
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
                   href="https://www.instagram.com/myobu_official/"
                   target="_blank"
                   title="Instagram"
                 >
                   <font-awesome-icon
                     :icon="['fab', 'instagram']"
-                    size="lg"
-                    :style="{ color: 'white' }"
-                  />
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  href="https://www.tiktok.com/@myobu_official?lang=en&is_copy_url=1&is_from_webapp=v1"
-                  target="_blank"
-                  title="TikTok"
-                >
-                  <font-awesome-icon
-                    :icon="['fab', 'tiktok']"
                     size="lg"
                     :style="{ color: 'white' }"
                   />
@@ -115,19 +89,6 @@
               </li>
               <li class="list-inline-item">
                 <a
-                  href="https://www.facebook.com/Myobu-101060582216135"
-                  target="_blank"
-                  title="Facebook"
-                >
-                  <font-awesome-icon
-                    :icon="['fab', 'facebook']"
-                    size="lg"
-                    :style="{ color: 'white' }"
-                  />
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
                   href="https://www.youtube.com/channel/UCkEdaRw8w0daEvGgzKff8TA/videos"
                   target="_blank"
                   title="Youtube"
@@ -139,8 +100,21 @@
                   />
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://github.com/myobu-guardians"
+                  target="_blank"
+                  title="GitHub"
+                >
+                  <font-awesome-icon
+                    icon="fa-brands fa-github"
+                    size="lg"
+                    :style="{ color: 'white' }"
+                  />
+                </a>
+              </li>
             </ul>
-            <div class="mb-5">
+            <div class="mb-4">
               <a
                 href="files/myobu-whitepaper-v2.0.pdf"
                 target="_blank"
@@ -177,8 +151,19 @@
                     class="dropdown-item"
                     >Hotbit</a
                   >
+                  <a
+                    href="https://buy.routelay.com/"
+                    target="_blank"
+                    class="dropdown-item"
+                    >Routely</a
+                  >
                 </div>
               </div>
+            </div>
+            <div class="text-danger">
+              Please set slippage to
+              <span class="font-weight-bold" style="font-size: 18px">4%</span>
+              for Uniswap & PancakeSwap
             </div>
           </div>
         </div>

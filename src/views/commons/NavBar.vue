@@ -64,7 +64,11 @@
               >
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/hikari">Hikari</router-link>
+              <a
+                href="https://myobu-guardians.github.io/hikari-dev/"
+                target="_blank"
+                >Hikari (Beta)</a
+              >
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/staking">Staking</router-link>

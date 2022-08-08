@@ -10,9 +10,10 @@
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^1.1.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
-    "@fortawesome/free-brands-svg-icons": "^5.2.0",
-    "@fortawesome/free-solid-svg-icons": "^5.2.0",
-    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/vue-fontawesome": "^2.0.8",
     "@kugatsu/vuenotification": "^1.1.4",
     "@vueform/slider": "^2.0.5",
     "animated-number-vue": "^1.0.0",
