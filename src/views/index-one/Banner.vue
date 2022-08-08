@@ -115,19 +115,18 @@
               </li>
             </ul>
             <div class="mb-4">
-              <a
-                href="files/myobu-whitepaper-v2.0.pdf"
-                target="_blank"
-                class="btn btn-white mr-2"
-                ><img src="img/redesign/favicon-small.png" height="18" />
-                &nbsp;FOXPAPER</a
-              >
+              <button class="btn btn-white mr-2" style="cursor: not-allowed">
+                <img src="img/redesign/favicon-small.png" height="18" />
+                &nbsp;FOXPAPER V2
+                <span class="text-warning">(Coming soon)</span>
+              </button>
+              <br />
               <div
                 class="dropdown"
                 style="display: inline-block; z-index: 99999; overflow: visible"
               >
                 <button class="btn app-store-btn mr-2" data-toggle="dropdown">
-                  BUY MYŌBU
+                  🦄 BUY MYŌBU
                 </button>
                 <div
                   class="dropdown-menu dropdown-menu-right"
@@ -159,6 +158,12 @@
                   >
                 </div>
               </div>
+              <a
+                href="https://app.multichain.org/#/router"
+                target="_blank"
+                class="btn mr-2"
+                >🌉 BRIDGE</a
+              >
             </div>
             <div class="text-danger">
               Please set slippage to
