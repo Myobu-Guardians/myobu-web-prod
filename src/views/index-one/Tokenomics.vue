@@ -44,11 +44,7 @@
                 <ul class="list-tokenomics">
                   <li>
                     <div class="name">Token name</div>
-                    <div class="value">Myōbu</div>
-                  </li>
-                  <li>
-                    <div class="name">Ticker Symbol</div>
-                    <div class="value">$MYOBU</div>
+                    <div class="value">Myōbu - $MYOBU</div>
                   </li>
                   <li>
                     <div class="name">Token Networks</div>
@@ -80,13 +76,9 @@
                   <li>
                     <div class="name">Development Fees</div>
                     <div class="value">
-                      <div>BUYS: 5% currently</div>
-                      <div>SELLS: 9% currently</div>
+                      <div>BUYS: 3% currently</div>
+                      <div>SELLS: 3% currently</div>
                     </div>
-                  </li>
-                  <li>
-                    <div class="name">Allows Arbitrage</div>
-                    <div class="value">Yes</div>
                   </li>
                   <li>
                     <div class="name">Staking</div>
@@ -118,7 +110,7 @@
 }
 
 .list-tokenomics li {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   list-style-position: outside;
   margin-left: 2em;
 }

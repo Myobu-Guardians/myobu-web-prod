@@ -21,22 +21,37 @@
               primary-bg
             "
           >
-            <div class="circle-icon mb-1">
+            <div class="circle-icon">
               <div class="text-white icon hikari"></div>
             </div>
-            <h5>PROJECT HIKARI</h5>
+            <h4>PROJECT HIKARI</h4>
             <ul class="list-tokenomics">
-              <li>Competitive trading card game</li>
-              <li>Collection of rare NFT cards</li>
-              <li>Sponsored tournaments</li>
-              <li>NFT marketplace</li>
+              <li>
+                <div class="name font-weight-normal">
+                  Competitive trading card game
+                </div>
+              </li>
+              <li>
+                <div class="name font-weight-normal">
+                  Collection of rare NFT cards
+                </div>
+              </li>
+              <li>
+                <div class="name font-weight-normal">Sponsored tournaments</div>
+              </li>
+              <li>
+                <div class="name font-weight-normal">NFT marketplace</div>
+              </li>
             </ul>
             <div class="video-container">
               <a
-                href="https://twitter.com/MyobuOfficial/status/1492635091310243843"
+                href="https://myobu-guardians.github.io/hikari-dev/"
                 target="_blank"
               >
                 <div class="hikari-board"></div>
+                <button class="btn btn-white" id="play-hikari-beta-btn">
+                  Play the BETA
+                </button>
               </a>
             </div>
           </div>
@@ -50,17 +65,27 @@
               primary-bg
             "
           >
-            <div class="circle-icon mb-1">
+            <div class="circle-icon">
               <div class="text-white icon yume"></div>
             </div>
-            <h5>PROJECT YUME</h5>
+            <h4>PROJECT YUME</h4>
             <ul class="list-tokenomics">
-              <li>Fully developed gaming ecosystem</li>
               <li>
-                High fidelity open-world MMORPG metaverse powered by Unreal
-                Engine 5
+                <div class="name font-weight-normal">
+                  Fully developed gaming ecosystem
+                </div>
               </li>
-              <li>In-game governance with Myōbu token</li>
+              <li>
+                <div class="name font-weight-normal">
+                  High fidelity open-world MMORPG metaverse powered by Unreal
+                  Engine 5
+                </div>
+              </li>
+              <li>
+                <div class="name font-weight-normal">
+                  In-game governance with Myōbu token
+                </div>
+              </li>
             </ul>
             <div class="video-container">
               <iframe
