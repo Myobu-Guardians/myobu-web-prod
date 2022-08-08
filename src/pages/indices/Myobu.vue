@@ -4,9 +4,9 @@
     <div class="main">
       <banner/>
       <gamefi/>
-      <team />
-      <more-about-myobu />
       <tokenomics/>
+      <more-about-myobu />
+      <team />
       <roadmap/>
       <press/>
       <site-footer/>

@@ -3,26 +3,26 @@
     <section id="team" class="pt-150 secondary-bg">
       <div class="container">
         <h2 class="text-white text-center">Team</h2>
-                    <div class="hero-animation-img">
-              <img
-                class="img-fluid d-block m-auto animation-one"
-                src="img/redesign/cloud.png"
-                width="210"
-                alt="animation image"
-              />
-              <img
-                class="img-fluid d-none d-lg-block animation-three"
-                src="img/redesign/cloud.png"
-                alt="animation image"
-                width="150"
-              />
-              <img
-                class="img-fluid d-none d-lg-block animation-four"
-                src="img/redesign/cloud.png"
-                alt="animation image"
-                width="200"
-              />
-            </div>
+        <div class="hero-animation-img">
+          <img
+            class="img-fluid d-block m-auto animation-one"
+            src="img/redesign/cloud.png"
+            width="210"
+            alt="animation image"
+          />
+          <img
+            class="img-fluid d-none d-lg-block animation-three"
+            src="img/redesign/cloud.png"
+            alt="animation image"
+            width="150"
+          />
+          <img
+            class="img-fluid d-none d-lg-block animation-four"
+            src="img/redesign/cloud.png"
+            alt="animation image"
+            width="200"
+          />
+        </div>
         <div
           class="
             row
@@ -36,7 +36,21 @@
             <div class="team-member">
               <img class="profile-avatar" src="img/team/team-ryan.png" />
               <div class="profile">
-                <h5 class="profile-name text-white">Ryan</h5>
+                <h5 class="profile-name text-white mb-0">Ryan</h5>
+                <div class="profile-contact mb-2">
+                  @prodigalmyogirl
+                  <a
+                    href="https://t.me/MyobuOfficial"
+                    target="_blank"
+                    title="Telegram"
+                  >
+                    <font-awesome-icon
+                      :icon="['fab', 'telegram-plane']"
+                      size="lg"
+                      :style="{ color: 'white' }"
+                    />
+                  </a>
+                </div>
                 <div class="profile-role">Team Lead</div>
                 <div class="profile-bio">
                   Published scientist, professor, serial entrepreneur, and
@@ -56,7 +70,21 @@
             <div class="team-member">
               <img class="profile-avatar" src="img/team/team-jumboox.png" />
               <div class="profile">
-                <h5 class="profile-name text-white">Jumboox</h5>
+                <h5 class="profile-name text-white mb-0">Jumboox</h5>
+                <div class="profile-contact mb-2">
+                  @jumboox
+                  <a
+                    href="https://t.me/MyobuOfficial"
+                    target="_blank"
+                    title="Telegram"
+                  >
+                    <font-awesome-icon
+                      :icon="['fab', 'telegram-plane']"
+                      size="lg"
+                      :style="{ color: 'white' }"
+                    />
+                  </a>
+                </div>
                 <div class="profile-role">Lead Lore</div>
                 <div class="profile-bio">
                   Background in creative writing and artistic development,
@@ -69,7 +97,21 @@
             <div class="team-member">
               <img class="profile-avatar" src="img/team/team-jad.png" />
               <div class="profile">
-                <h5 class="profile-name text-white">JAD</h5>
+                <h5 class="profile-name text-white mb-0">JAD</h5>
+                <div class="profile-contact mb-2">
+                  @im_just_a_dude
+                  <a
+                    href="https://t.me/MyobuOfficial"
+                    target="_blank"
+                    title="Telegram"
+                  >
+                    <font-awesome-icon
+                      :icon="['fab', 'telegram-plane']"
+                      size="lg"
+                      :style="{ color: 'white' }"
+                    />
+                  </a>
+                </div>
                 <div class="profile-role">Creative</div>
                 <div class="profile-bio">
                   JAD has a background in media and graphic design. Designer and
@@ -83,7 +125,21 @@
             <div class="team-member">
               <img class="profile-avatar" src="img/team/team-foxy.png" />
               <div class="profile">
-                <h5 class="profile-name text-white">Foxy</h5>
+                <h5 class="profile-name text-white mb-0">Foxy</h5>
+                <div class="profile-contact mb-2">
+                  @Austy16
+                  <a
+                    href="https://t.me/MyobuOfficial"
+                    target="_blank"
+                    title="Telegram"
+                  >
+                    <font-awesome-icon
+                      :icon="['fab', 'telegram-plane']"
+                      size="lg"
+                      :style="{ color: 'white' }"
+                    />
+                  </a>
+                </div>
                 <div class="profile-role">PR</div>
                 <div class="profile-bio">
                   Background in social media and public relations development,
