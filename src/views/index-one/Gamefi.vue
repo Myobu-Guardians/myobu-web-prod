@@ -45,7 +45,7 @@
             </ul>
             <div class="video-container">
               <a
-                href="https://myobu-guardians.github.io/hikari-dev/"
+                href="https://hikari-sandbox.myobu.io/"
                 target="_blank"
               >
                 <div class="hikari-board"></div>
