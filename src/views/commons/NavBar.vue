@@ -50,17 +50,17 @@
             <li class="nav-item">
               <a
                 class="nav-link page-scroll"
-                href="#team"
-                v-scroll-to="'#team'"
-                >{{ $t("Team") }}</a
+                href="#tokenomics"
+                v-scroll-to="'#tokenomics'"
+                >{{ $t("Tokenomics") }}</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link page-scroll"
-                href="#tokenomics"
-                v-scroll-to="'#tokenomics'"
-                >{{ $t("Tokenomics") }}</a
+                href="#team"
+                v-scroll-to="'#team'"
+                >{{ $t("Team") }}</a
               >
             </li>
             <li class="nav-item">

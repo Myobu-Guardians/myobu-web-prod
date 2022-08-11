@@ -167,8 +167,10 @@
             </div>
             <div class="text-danger">
               Please set slippage to
-              <span class="font-weight-bold" style="font-size: 18px">4%</span>
-              for Uniswap & PancakeSwap
+              <span class="font-weight-bold" style="font-size: 18px">6%</span>
+              on buy and
+              <span class="font-weight-bold" style="font-size: 18px">10%</span>
+              on sell for Uniswap & PancakeSwap
             </div>
           </div>
         </div>

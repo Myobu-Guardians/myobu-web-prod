@@ -2283,7 +2283,7 @@ select.form-control.has-value {
     content: "";
     border-radius: 70%;
     left: 0;
-    bottom: 0;
+    bottom: 60px;
     transform-origin: bottom;
     transform: translateX(0%) scale(3);
     width: 100vw;

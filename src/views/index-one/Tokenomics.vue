@@ -76,8 +76,8 @@
                   <li>
                     <div class="name">Development Fees</div>
                     <div class="value">
-                      <div>BUYS: 3% currently</div>
-                      <div>SELLS: 3% currently</div>
+                      <div>BUYS: 5% currently</div>
+                      <div>SELLS: 9% currently</div>
                     </div>
                   </li>
                   <li>
