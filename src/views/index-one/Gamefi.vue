@@ -49,7 +49,7 @@
                 target="_blank"
               >
                 <div class="hikari-board"></div>
-                <button class="btn btn-white" id="play-hikari-beta-btn">
+                <button class="btn btn-purple" id="play-hikari-beta-btn">
                   Play the BETA
                 </button>
               </a>

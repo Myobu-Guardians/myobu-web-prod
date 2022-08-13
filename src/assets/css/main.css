@@ -4003,12 +4003,13 @@ p.lead {
   color: #6730e3;
 }
 
-.btn-white {
-  color: #714bc3;
-  background-color: rgba(255, 255, 255, 0.95);
+.btn-purple {
+  color: #fff;
+  background-color: var(--mc2);
   border-radius: 8px;
 }
-.btn-white:after {
+.btn-purple:hover {
+  color: #fff;
 }
 
 .border-bottom {
