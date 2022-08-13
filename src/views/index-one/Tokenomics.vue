@@ -82,11 +82,38 @@
                   </li>
                   <li>
                     <div class="name">Staking</div>
-                    <div class="value">Yes</div>
-                  </li>
-                  <li>
-                    <div class="name">Governance</div>
-                    <div class="value">DAO</div>
+                    <div class="value">
+                      <router-link class="" to="/staking-eth">ETH</router-link>
+                      and/or
+                      <router-link class="" to="/staking-bsc">BSC</router-link>
+                      Rewards
+                      <ul>
+                        <li class="ml-0 mb-0">
+                          <a
+                            target="_blank"
+                            href="https://myobu.medium.com/my%C5%8Dbu-staking-faq-cc6bec8ff421"
+                          >
+                            <font-awesome-icon
+                              :icon="['fab', 'medium']"
+                              :style="{ color: 'white' }"
+                            />
+                            Myōbu Staking: FAQ</a
+                          >
+                        </li>
+                        <li class="ml-0 mb-0">
+                          <a
+                            target="_blank"
+                            href="https://myobu.medium.com/my%C5%8Dbu-introduces-staking-bde94876e6d"
+                          >
+                            <font-awesome-icon
+                              :icon="['fab', 'medium']"
+                              :style="{ color: 'white' }"
+                            />
+                            Myōbu Introduces Staking
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </li>
                 </ul>
               </div>

@@ -150,8 +150,9 @@
                     class="dropdown-item"
                     >Hotbit</a
                   >
+                  <!-- https://buy.routelay.com?apiKey=dc804946-723d-4a72-81d9-f97b664c208d&to=myobu&primaryColor=9075f9&mode=buy&isDarkTheme=false&cl=myobu -->
                   <a
-                    href="https://buy.routelay.com/"
+                    href="https://buy.routelay.com/?primaryColor=9075f9&mode=buy&isDarkTheme=false&cl=myobu"
                     target="_blank"
                     class="dropdown-item"
                     >Routely (by Fiat)</a
