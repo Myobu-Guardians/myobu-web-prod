@@ -28,7 +28,6 @@
             row
             align-items-center
             justify-content-between
-            border-bottom
             pb-5
           "
         >

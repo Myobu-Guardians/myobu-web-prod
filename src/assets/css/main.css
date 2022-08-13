@@ -168,6 +168,13 @@ html {
   font-size: 15px;
 }
 
+:root {
+  --mc1: #cc00ff;
+  --mc2: #7000ff;
+  --hc: #ddd;
+  --bc: #9ba0b8;
+}
+
 /* -----------------------------------------
            02. BASE TYPOGRAPHY
 -------------------------------------------- */
@@ -199,6 +206,7 @@ td {
 
 body {
   background-color: #140a20;
+  background: linear-gradient(90deg, #1b121d 0, #120f2f 50%, #1b121d 100%);
   font-family: "Open Sans", sans-serif;
   text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
   font-size: 1rem;
@@ -206,6 +214,26 @@ body {
   font-weight: 400;
   line-height: 1.75;
 }
+
+/*
+body:after,
+body:before {
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  position: fixed;
+  content: "";
+}
+
+body::after {
+  top: 42.8%;
+  right: 25%;
+  background-color: #7000ff;
+  -webkit-filter: blur(150px);
+  -o-filter: blur(150px);
+  filter: blur(150px);
+}
+*/
 
 p {
   margin-bottom: 1.25em;
@@ -323,11 +351,12 @@ b {
 }
 
 .secondary-bg {
-  background: #4f1f85;
+  background: radial-gradient(#824cc0, #4f1f85, #2b1e3e);
 }
 
 .tertiary-bg {
-  background: #441875;
+  /* background: #441875; */
+  background: radial-gradient(#421a70, #2b1e3e);
 }
 
 .color-primary {
@@ -446,8 +475,7 @@ b {
   color: inherit;
 }
 
-.google-play-btn,
-.app-store-btn {
+.google-play-btn {
   padding: 12px 30px;
   /*font-family: 'Montserrat', sans-serif;*/
   font-weight: 700;
@@ -463,17 +491,6 @@ b {
 .google-play-btn:hover {
   background: transparent;
   color: #ffffff;
-}
-
-.app-store-btn {
-  border-radius: 30px;
-  color: #ffffff;
-  border-color: #ffffff;
-}
-
-.app-store-btn:hover {
-  background: #ffffff;
-  color: #6730e3;
 }
 
 /*form field css*/
@@ -3924,9 +3941,17 @@ p.lead {
 }
 
 /*  buttons */
+@keyframes animatedgradient {
+  0%,
+  100% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
 .btn {
-  border-radius: 20px;
-  border: 2px solid #9075f9;
+  position: relative;
   padding: 21px 24px;
   text-transform: uppercase;
   font-size: 14px !important;
@@ -3936,17 +3961,54 @@ p.lead {
   text-shadow: none;
   color: #fff;
   margin-top: 15px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.btn:before {
+  content: "";
+  box-shadow: 0 5px 20px;
+}
+.btn:after {
+  border: 3px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 8px;
+  content: "";
+  background: linear-gradient(
+      45deg,
+      var(--mc1),
+      var(--mc2),
+      var(--mc1),
+      var(--mc2)
+    )
+    border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  background-size: 300% 300%;
+  -webkit-animation: 4s infinite alternate animatedgradient;
+  animation: 4s infinite alternate animatedgradient;
+}
+.btn:hover::after {
+  -webkit-animation: 3s infinite alternate-reverse animatedgradient;
+  animation: 3s infinite alternate-reverse animatedgradient;
 }
 
 .btn:hover {
-  background: #ffffff;
+  /* background: #ffffff; */
   color: #6730e3;
 }
 
 .btn-white {
-  background-color: #fff;
-  border: 1px solid white;
   color: #714bc3;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+}
+.btn-white:after {
 }
 
 .border-bottom {

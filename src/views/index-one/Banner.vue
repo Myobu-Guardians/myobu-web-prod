@@ -125,7 +125,7 @@
                 class="dropdown"
                 style="display: inline-block; z-index: 99999; overflow: visible"
               >
-                <button class="btn app-store-btn mr-2" data-toggle="dropdown">
+                <button class="btn mr-2" data-toggle="dropdown">
                   🦄 BUY MYŌBU
                 </button>
                 <div
@@ -159,12 +159,9 @@
                   >
                 </div>
               </div>
-              <a
-                href="https://app.multichain.org/#/router"
-                target="_blank"
-                class="btn mr-2"
-                >🌉 BRIDGE</a
-              >
+              <a href="https://app.multichain.org/#/router" target="_blank">
+                <button class="btn mr-2">🌉 BRIDGE</button>
+              </a>
             </div>
             <div class="text-danger">
               Please set slippage to
