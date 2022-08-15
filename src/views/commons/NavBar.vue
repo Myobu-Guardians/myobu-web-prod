@@ -10,7 +10,7 @@
         'white-bg': coloredLogo,
       }"
     >
-      <div class="container">
+      <div class="container" style="max-width: 100%; width: 100%">
         <a class="navbar-brand" href="/"
           ><img
             :src="
@@ -20,15 +20,24 @@
             alt="logo"
             class="img-fluid"
         /></a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          @click="mobileNavClicked"
-          v-bind:class="{ collapsed: collapsed }"
-        >
-          <span class="ti-menu"></span>
-        </button>
+        <div class="nav-bar-right">
+          <img
+            src="../../assets/img/redesign/logo-no-text.png"
+            class="small-logo"
+          />
+          <div class="global-buttons-md mr-2">
+            <buy-buttons></buy-buttons>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            @click="mobileNavClicked"
+            v-bind:class="{ collapsed: collapsed }"
+            style="float: right"
+          >
+            <span class="ti-menu"></span>
+          </button>
+        </div>
 
         <div
           class="collapse navbar-collapse main-menu h-auto"
@@ -64,36 +73,16 @@
               >
             </li>
             <li class="nav-item">
-              <a
-                href="https://hikari-sandbox.myobu.io/"
-                target="_blank"
+              <a href="https://hikari-sandbox.myobu.io/" target="_blank"
                 >Hikari (Beta)</a
               >
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/staking">Staking</router-link>
             </li>
-            <!--            <li class="nav-item dropdown">-->
-            <!--              <a class="nav-link page-scroll dropdown-toggle" href="#" id="communityDropdown" role="button"-->
-            <!--                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-            <!--                Community-->
-            <!--              </a>-->
-            <!--              <div class="dropdown-menu submenu" aria-labelledby="communityDropdown">-->
-            <!--                <a class="nav-link" href="https://forum.myobu.io">{{ $t('forum') }}</a>-->
-            <!--&lt;!&ndash;                <a class="nav-link page-scroll" href="https://app.myobu.io">{{ $t('dashboard') }}</a>&ndash;&gt;-->
-            <!--              </div>-->
-            <!--            </li>-->
-            <!--            <li class="nav-item dropdown">-->
-            <!--              <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownHome" role="button"-->
-            <!--                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-            <!--                <font-awesome-icon :icon="['fas', 'language']" size="lg"/>-->
-            <!--              </a>-->
-            <!--              <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownHome">-->
-            <!--                <a href="#" v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">-->
-            <!--                  <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}-->
-            <!--                </a>-->
-            <!--              </div>-->
-            <!--            </li>-->
+            <div class="global-buttons ml-5">
+              <buy-buttons></buy-buttons>
+            </div>
           </ul>
         </div>
       </div>
@@ -102,14 +91,82 @@
   </header>
 </template>
 
+<style>
+.global-buttons-md {
+  background-color: transparent;
+  border: none;
+  float: right;
+  position: relative;
+}
+
+.nav-bar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.small-logo {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .global-buttons-md {
+    display: flex;
+    flex-direction: row;
+  }
+  .global-buttons-md .brigde-btn {
+    margin-top: 0 !important;
+  }
+
+  .global-buttons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .global-buttons-md {
+    display: none;
+  }
+  .global-buttons {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-brand {
+    display: none !important;
+  }
+  .nav-bar-right {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .small-logo {
+    display: block;
+    width: 48px;
+    height: 48px;
+  }
+  .nav-bar-right .btn {
+    padding: 14px;
+  }
+  .nav-bar-right .global-buttons-md {
+    margin-left: auto !important;
+  }
+}
+</style>
+
 <script>
 import i18n from "@/plugins/i18n";
+import BuyButtons from "../../views/commons/BuyButtons.vue";
+
 export default {
   props: {
     coloredLogo: {
       type: Boolean,
       default: false,
     },
+  },
+  components: {
+    BuyButtons,
   },
   data: function () {
     return {
