@@ -5,7 +5,12 @@
       style="display: inline-block; z-index: 99999; overflow: visible"
     >
       <button class="btn btn-purple mr-2 buy-btn" data-toggle="dropdown">
-        🦄 BUY MYŌBU
+        <img
+          src="img/redesign/favicon-small.png"
+          height="18"
+          style="margin-top: -3px"
+        />
+        {{ buyBtnText }}
       </button>
       <div class="dropdown-menu dropdown-menu-right" style="overflow: auto">
         <a
@@ -40,3 +45,21 @@
     </a>
   </div>
 </template>
+
+<style scoped>
+.bridge-btn,
+.buy-btn {
+  max-height: 56px;
+}
+</style>
+
+<script>
+export default {
+  props: {
+    buyBtnText: {
+      type: String,
+      default: "BUY MYŌBU",
+    },
+  },
+};
+</script>

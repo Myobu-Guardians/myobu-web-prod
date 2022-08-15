@@ -117,7 +117,7 @@
             <div class="mb-4">
               <button class="btn btn-white mr-2" style="cursor: not-allowed">
                 <img src="img/redesign/favicon-small.png" height="18" />
-                &nbsp;FOXPAPER V2
+                &nbsp;FOXPAPER V3
                 <span class="text-warning">(Coming soon)</span>
               </button>
             </div>

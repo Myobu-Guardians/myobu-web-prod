@@ -26,7 +26,7 @@
             class="small-logo"
           />
           <div class="global-buttons-md mr-2">
-            <buy-buttons></buy-buttons>
+            <buy-buttons buyBtnText="Buy"></buy-buttons>
           </div>
           <button
             class="navbar-toggler"
@@ -147,6 +147,7 @@
   }
   .nav-bar-right .btn {
     padding: 14px 8px;
+    min-width: 100px;
   }
   .nav-bar-right .global-buttons-md {
     margin-left: auto !important;
