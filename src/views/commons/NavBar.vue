@@ -148,6 +148,7 @@
   .nav-bar-right .btn {
     padding: 14px 8px;
     min-width: 100px;
+    min-height: 44px;
   }
   .nav-bar-right .global-buttons-md {
     margin-left: auto !important;
