@@ -19,8 +19,10 @@
 <style type="text/css">
 #parallax {
   position: relative;
-  width: 100%;
-  height: 100vh;
+  max-width: 100%;
+  max-height: 90vh;
+  aspect-ratio: 4 / 3;
+  margin: 0 auto;
   background-image: url(../../assets/img/parallax/glow-400.png),
     url(../../assets/img/parallax/wall-1920.png),
     url(../../assets/img/parallax/temple-1920-grad-9-3.png),
@@ -29,9 +31,7 @@
     url(../../assets/img/parallax/moon-200.png),
     url(../../assets/img/parallax/stars-1920.jpg);
   background-repeat: no-repeat;
-  background-position: -10% 60%, center, 50% 0%, 50% 10%, 50% 40%, 60% 10%,
-    center;
-  background-size: 20%, 130%, 130%, 105%, 130%, 8%, 120%;
+  background-size: 20%, 120%, 120%, 105%, 120%, 10%, 120%;
 }
 
 #parallax .texts {
@@ -60,15 +60,15 @@ export default {
       }%`;
       // Wall
       let _depth2 = `${50 - (_mouseX - _w) * 0.025}% ${
-        50 - (_mouseY - _h) * 0.025
+        70 - (_mouseY - _h) * 0.025
       }%`;
       // Temple
       let _depth3 = `${50 - (_mouseX - _w) * 0.015}% ${
-        0 - (_mouseY - _h) * 0.015
+        70 - (_mouseY - _h) * 0.015
       }%`;
       // Tree
       let _depth4 = `${50 - (_mouseX - _w) * 0.01}% ${
-        10 - (_mouseY - _h) * 0.01
+        50 - (_mouseY - _h) * 0.01
       }%`;
       // Mountains
       let _depth5 = `${50 - (_mouseX - _w) * 0.005}% ${
@@ -76,7 +76,7 @@ export default {
       }%`;
       // Moon
       let _depth6 = `${60 - (_mouseX - _w) * 0.001}% ${
-        10 - (_mouseY - _h) * 0.001
+        20 - (_mouseY - _h) * 0.001
       }%`;
       // Stars
       let _depth7 = `${50 - (_mouseX - _w) * 0.001}% ${
