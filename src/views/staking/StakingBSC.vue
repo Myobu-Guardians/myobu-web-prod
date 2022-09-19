@@ -40,17 +40,17 @@
               <code>emergency withdraw</code>.
             </p>
             <p>
-              For normal Myobu staked tokens, just enter <code>0</code> into the
+              For normal Myobu staked tokens, just enter <code>1</code> into the
               <code>_pid</code> field, and push <code>Write</code>. Confirm the
               transaction, and your tokens will be returned to you.
             </p>
             <p>
-              If you staked LP, you will enter <code>1</code> and do the same
+              If you staked LP, you will enter <code>0</code> and do the same
               thing.
             </p>
             <p>
               Just to be clear: _pid (stands for pool id): <code>0</code> for
-              myobu, <code>1</code> for lp
+              lp, <code>1</code> for myobu
             </p>
             <p>
               Sorry about the inconvenience, I had hoped to find a solution, but
