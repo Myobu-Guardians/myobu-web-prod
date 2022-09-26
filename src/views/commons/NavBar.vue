@@ -49,8 +49,8 @@
               <a class="nav-link page-scroll" href="/">{{ $t("home") }}</a>
             </li>
             <li class="nav-item">
-              <a href="https://cloud.myobu.io/" target="_blank"
-                >Cloud</a
+              <a href="https://protocol.myobu.io/" target="_blank"
+                >Protocol</a
               >
             </li>
             <li class="nav-item">
