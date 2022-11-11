@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.a541280d6f3d53a2e24e4a209222bb23.js"
+  "precache-manifest.0e946e62b8572d622e80614cedf3ac2c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "myobu"});
