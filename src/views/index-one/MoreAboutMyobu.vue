@@ -11,7 +11,7 @@
               <p>
                 $MYOBU is available as both an ERC20 (Ethereum) & BEP20 (Binance
                 Smart Chain) token. Graduating development fees are collected on
-                both buy & sell transactions but will never exceed 10% in either
+                both buy & sell transactions but will never exceed 5% in either
                 case. Fees collected are allocated to specific buckets:
                 development, staking, play-to-earn, DAO & Shrine. Myobu holders
                 are currently able to stake their tokens to earn ETH and/or BSC
