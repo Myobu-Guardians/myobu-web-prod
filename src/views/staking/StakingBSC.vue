@@ -6,7 +6,7 @@
           class="row align-items-center justify-content-between border-bottom"
         >
           <div class="col-md-6 col-sm-12 text-md-left text-center">
-            <h1 class="text-white align-middle mb-5">
+            <h1 class="text-white my-auto align-middle">
               <img
                 src="img/redesign/staking.png"
                 class="img-fluid staking-img my-auto align-middle"
@@ -14,49 +14,108 @@
               <span class="my-auto align-middle"> MYŌBU STAKING</span>
             </h1>
           </div>
+          <div
+            class="col-md-6 col-sm-12 mt-3 mt-md-0 text-md-right text-center"
+          >
+            <div v-if="user === null">
+              <button @click="connect" class="btn">Connect wallet</button>
+            </div>
+            <div v-else>
+              <span :model="user" class="wallet align-items-center">
+                {{ beautifyWallet(user) }}
+                <img src="img/redesign/checked.png" class="check" />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row align-items-center justify-content-between border-bottom"
+        >
+          <div
+            class="
+              col-md-12
+              pb-5
+              mt-5 mt-md-0
+              text-md-right text-center text-white
+            "
+          >
+            <div v-if="user === null"></div>
+            <div v-else>Balance: {{ format(size, 9) }} Myōbu</div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="ptb-100">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <p class="mt-4" style="font-weight: bold; font-size: 18px">
-              The BSC Staking contract is broken. Please follow the steps below
-              to withdraw your tokens. Sorry for the inconvenience:
-            </p>
-            <p>
-              Visit
-              <a
-                href="https://bscscan.com/address/0x2fdceabdd77423dfa7ff06eea7fbeab5f4b74a0e#writeContract"
-                target="_blank"
-                rel="noreferrer"
-                >https://bscscan.com/address/0x2fdceabdd77423dfa7ff06eea7fbeab5f4b74a0e#writeContract</a
-              >
-            </p>
-            <p>
-              Connect your wallet (that you had staked with), using metamask or
-              walletconnect. <br />And then Write the contract under #11.
-              <code>emergency withdraw</code>.
-            </p>
-            <p>
-              For normal Myobu staked tokens, just enter <code>1</code> into the
-              <code>_pid</code> field, and push <code>Write</code>. Confirm the
-              transaction, and your tokens will be returned to you.
-            </p>
-            <p>
-              If you staked LP, you will enter <code>0</code> and do the same
-              thing.
-            </p>
-            <p>
-              Just to be clear: _pid (stands for pool id): <code>0</code> for
-              lp, <code>1</code> for myobu
-            </p>
-            <p>
-              Sorry about the inconvenience, I had hoped to find a solution, but
-              there doesn't appear to be one, and it is time that you can get
-              your tokens back fairly
-            </p>
+    <section id="ETH" class="ptb-100">
+      <div class="container pools-mobile">
+        <div class="row align-items-center justify-content-between">
+          <div
+            class="col-md-6 col-sm-12 pl-0 pr-0"
+            v-for="item in pools"
+            :key="item.poolId"
+          >
+            <div class="bordered">
+              <div class="row my-3">
+                <div class="col-8">
+                  <img
+                    src="img/redesign/favicon.png"
+                    class="img-fluid my-auto align-middle img-rounded"
+                  />
+                  <span class="my-auto align-middle">{{ item.name }}</span>
+                </div>
+                <div class="col-4 text-right">
+                  <img class="align-middle" v-if="item.icon" :src="item.icon" />
+                </div>
+              </div>
+              <div class="row pl-3">
+                <div class="col-4">
+                  <div>APY</div>
+                  <div class="highlight">{{ format(item.apy, 2) }}%</div>
+                </div>
+                <div class="col-4">
+                  <div>Daily pool rewards</div>
+                  <div class="highlight">${{ format(item.dr, 2) }}</div>
+                </div>
+                <div class="col-4">
+                  <div>TVL</div>
+                  <div class="highlight">${{ format(item.tlv, 2) }}</div>
+                </div>
+              </div>
+              <div class="row pl-3">
+                <div class="col-4">
+                  <div>Deposit</div>
+                  <div class="highlight">
+                    {{
+                      item.poolId === 1
+                        ? beautifyNumbers(item.deposit)
+                        : format(item.deposit, 6)
+                    }}
+                    {{ item.poolId === 1 ? "Myobu" : "Cake-LP" }}
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div>Earned</div>
+                  <div class="highlight">
+                    {{ beautifyRewards(item.rewardsETH, 2) }} BNB
+                  </div>
+                </div>
+                <div class="col-4"></div>
+              </div>
+              <div class="row px-3">
+                <div class="col-6">
+                  <router-link class="btn staking purple" :to="item.link"
+                    >STAKE</router-link
+                  >
+                </div>
+                <div class="col-6">
+                  <router-link
+                    v-if="item.userInfo.amount > 0"
+                    class="btn staking"
+                    :to="item.manageLink"
+                    >Manage
+                  </router-link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -188,29 +247,28 @@ export default {
       /*****************************************/
       /* Detect the MetaMask Ethereum provider */
       /*****************************************/
+
       // this returns the provider, or null if it wasn't detected
       //const provider = await detectEthereumProvider();
-      /*
       const provider = window.ethereum;
 
       if (provider) {
         this.startApp(provider); // Initialize your app
       }
-      */
+
       /***********************************************************/
       /* Handle user accounts and accountsChanged (per EIP-1193) */
       /***********************************************************/
-      /*
+
       window.ethereum
-          .request({method: 'eth_accounts'})
-          .then(this.handleAccountsChanged)
-          .catch((err) => {
-            // Some unexpected error.
-            // For backwards compatibility reasons, if no accounts are available,
-            // eth_accounts will return an empty array.
-            console.error(err);
-          });
-          */
+        .request({ method: "eth_accounts" })
+        .then(this.handleAccountsChanged)
+        .catch((err) => {
+          // Some unexpected error.
+          // For backwards compatibility reasons, if no accounts are available,
+          // eth_accounts will return an empty array.
+          console.error(err);
+        });
     },
     startApp: function (provider) {
       // If the provider returned by detectEthereumProvider is not the same as
