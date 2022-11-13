@@ -23,14 +23,7 @@
             width="200"
           />
         </div>
-        <div
-          class="
-            row
-            align-items-center
-            justify-content-between
-            pb-5
-          "
-        >
+        <div class="row align-items-center justify-content-between pb-5">
           <div class="col-md-6 col-lg-4">
             <div class="team-member">
               <img class="profile-avatar" src="img/team/team-ryan.png" />
@@ -124,9 +117,9 @@
             <div class="team-member">
               <img class="profile-avatar" src="img/team/team-foxy.png" />
               <div class="profile">
-                <h5 class="profile-name text-white mb-0">Foxy</h5>
+                <h5 class="profile-name text-white mb-0">Victor</h5>
                 <div class="profile-contact mb-2">
-                  @Austy16
+                  @vctrcrypto
                   <a
                     href="https://t.me/MyobuOfficial"
                     target="_blank"
@@ -141,9 +134,9 @@
                 </div>
                 <div class="profile-role">PR</div>
                 <div class="profile-bio">
-                  Background in social media and public relations development,
-                  Foxy focuses on social media concepts, engagement, and overall
-                  community oversight.
+                  Background in public relations development, Victor focuses on
+                  social media concepts, engagement, and overall community
+                  oversight.
                 </div>
               </div>
             </div>

@@ -49,9 +49,10 @@
               <a class="nav-link page-scroll" href="/">{{ $t("home") }}</a>
             </li>
             <li class="nav-item">
-              <a href="https://protocol.myobu.io/" target="_blank"
-                >Protocol</a
-              >
+              <a href="https://protocol.myobu.io/" target="_blank">Protocol</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://realm.myobu.io/" target="_blank">Realm</a>
             </li>
             <li class="nav-item">
               <a
@@ -75,11 +76,6 @@
                 href="#team"
                 v-scroll-to="'#team'"
                 >{{ $t("Team") }}</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="https://hikari-sandbox.myobu.io/" target="_blank"
-                >Hikari (Beta)</a
               >
             </li>
             <li class="nav-item">

@@ -115,11 +115,15 @@
               </li>
             </ul>
             <div class="mb-4">
-              <button class="btn btn-white mr-2" style="cursor: not-allowed">
-                <img src="img/redesign/favicon-small.png" height="18" />
-                &nbsp;FOXPAPER V3
-                <span class="text-warning">(Coming soon)</span>
-              </button>
+              <a
+                href="https://realm.myobu.io/#/notes/2DC7Nj7H4MhaD9qVtW0RD"
+                target="_blank"
+              >
+                <button class="btn btn-white mr-2" style="width:228px;max-width:100%;">
+                  <img src="img/redesign/favicon-small.png" height="18" />
+                  &nbsp;FOXPAPER
+                </button>
+              </a>
             </div>
             <div class="text-danger">
               Please set slippage to
