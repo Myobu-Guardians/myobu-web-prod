@@ -60,6 +60,46 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <div class="team-member">
+              <img class="profile-avatar" src="img/team/team-artists.png" />
+              <div class="profile">
+                <h5 class="profile-name text-white mb-0">Kirito</h5>
+                <div class="profile-contact mb-2">
+                  @kirito_myo
+                  <a
+                    href="https://t.me/kirito_myo"
+                    target="_blank"
+                    title="Telegram"
+                    class="mr-2"
+                  >
+                    <font-awesome-icon
+                      :icon="['fab', 'telegram-plane']"
+                      size="lg"
+                      :style="{ color: 'white' }"
+                    />
+                  </a>
+                    <a
+                    href="https://github.com/kirito-m"
+                    target="_blank"
+                    title="GitHub"
+                  >
+                    <font-awesome-icon
+                      :icon="['fab', 'github']"
+                      size="lg"
+                      :style="{ color: 'white' }"
+                    />
+                  </a>
+                </div>
+                <div class="profile-role">CTO</div>
+                <div class="profile-bio">
+                  Professional web2&3 developer and blockchain enthusiast.
+                  Kirito is leading the development of Myobu’s core technology.
+                  His goal is to make Myobu Great Again.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="team-member">
               <img class="profile-avatar" src="img/team/team-jumboox.png" />
               <div class="profile">
                 <h5 class="profile-name text-white mb-0">Jumboox</h5>
@@ -137,21 +177,6 @@
                   Background in public relations development, Victor focuses on
                   social media concepts, engagement, and overall community
                   oversight.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="team-member">
-              <img class="profile-avatar" src="img/team/team-artists.png" />
-              <div class="profile">
-                <h5 class="profile-name text-white">Artist Team</h5>
-                <div class="profile-bio">
-                  Myobu works with several design and art teams to create the
-                  unique and special Myobu art, metaverse worlds, Playing Card
-                  characters and offerings. The artist team is ever growing with
-                  designers from major projects built on Unreal Engine and
-                  beyond.
                 </div>
               </div>
             </div>

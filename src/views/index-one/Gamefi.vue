@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-6 col-lg-4">
           <div
             class="
               single-promo single-promo-hover single-promo-1
@@ -22,9 +22,10 @@
             "
           >
             <div class="circle-icon">
-              <div class="text-white icon hikari"></div>
+              <div class="text-icon">光</div>
+              <div class="text-icon-outer"></div>
             </div>
-            <h4>PROJECT HIKARI</h4>
+            <h4>HIKARI</h4>
             <ul class="list-tokenomics">
               <li>
                 <div class="name font-weight-normal">
@@ -44,10 +45,7 @@
               </li>
             </ul>
             <div class="video-container">
-              <a
-                href="https://hikari-sandbox.myobu.io/"
-                target="_blank"
-              >
+              <a href="https://hikari-sandbox.myobu.io/" target="_blank">
                 <div class="hikari-board"></div>
                 <button class="btn btn-purple" id="play-hikari-beta-btn">
                   Play the BETA
@@ -56,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-6 col-lg-4">
           <div
             class="
               single-promo single-promo-hover single-promo-1
@@ -66,9 +64,53 @@
             "
           >
             <div class="circle-icon">
-              <div class="text-white icon yume"></div>
+              <div class="text-icon">刀</div>
+              <div class="text-icon-outer"></div>
             </div>
-            <h4>PROJECT YUME</h4>
+            <h4>KATANA</h4>
+            <ul class="list-tokenomics">
+              <li>
+                <div class="name font-weight-normal">
+                  Hardcore Roguelike adventure game
+                </div>
+              </li>
+              <li>
+                <div class="name font-weight-normal">
+                  Procedural generated fantasy world that evolves over time
+                </div>
+              </li>
+              <li>
+                <div class="name font-weight-normal">
+                  Tradable NFT items and equipments
+                </div>
+              </li>
+              <li>
+                <div class="name font-weight-normal">
+                  A unique and immersive experience
+                </div>
+              </li>
+            </ul>
+            <div class="video-container">
+              <div class="katana-bg">
+                <div class="release-date">Release Q1 2023</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div
+            class="
+              single-promo single-promo-hover single-promo-1
+              rounded
+              text-center
+              primary-bg
+            "
+          >
+            <div class="circle-icon">
+              <div class="text-icon">夢</div>
+              <div class="text-icon-outer"></div>
+            </div>
+            <h4>YUME</h4>
             <ul class="list-tokenomics">
               <li>
                 <div class="name font-weight-normal">

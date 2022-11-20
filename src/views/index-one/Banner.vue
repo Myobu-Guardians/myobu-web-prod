@@ -8,16 +8,19 @@
               <span>Welcome Myobu Guardians!</span>
             </h1>
             <p class="lead">
-              Myobu is an ever-evolving blockchain-based project that is aiming
-              to build one of the most robust, entertaining, and rewarding
-              ecosystems in the Gamefi and Metaverse arenas. By developing a
-              variety of unique and interconnecting Play & Earn games (P&E),
-              Myobu strives to become a leader in these fields.
+              Myobu is an ever-evolving blockchain-based project that aims to
+              build one of the most robust, entertaining, and rewarding
+              ecosystems in the SocialFi, GameFi, and Metaverse arenas. With the
+              Myobu Protocol's power, we develop various unique and
+              interconnecting community platforms and Play & Earn games (P&E).
+              Myobu strives to construct serious products with real-life
+              utilities that could benefit the web3 world and individuals'
+              lives.
             </p>
             <p class="lead">
-              Join other Guardians as we explore a one of a kind Gamefi
-              ecosystem, NFT Marketplace, and metaverse experience inspired by
-              Japanese celestial fox spirits.
+              Join other Guardians as we explore a one-of-a-kind decentralized
+              community, GameFi ecosystem, NFT Marketplace, and metaverse
+              experience inspired by Japanese celestial fox spirits.
             </p>
             <ul
               class="social-list list-inline list-unstyled mb-3 mt-5 space-2x"
@@ -119,7 +122,10 @@
                 href="https://realm.myobu.io/#/notes/2DC7Nj7H4MhaD9qVtW0RD"
                 target="_blank"
               >
-                <button class="btn btn-white mr-2" style="width:228px;max-width:100%;">
+                <button
+                  class="btn btn-white mr-2"
+                  style="width: 228px; max-width: 100%"
+                >
                   <img src="img/redesign/favicon-small.png" height="18" />
                   &nbsp;FOXPAPER
                 </button>

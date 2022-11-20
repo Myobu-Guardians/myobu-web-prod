@@ -124,25 +124,6 @@
             </div>
             <div class="social-list-wrap text-right text-white mt-4">
               <ul class="social-list list-inline list-unstyled">
-                <li class="list-inline-item">
-                  <a
-                    class="nav-link page-scroll"
-                    href="#tokenomics"
-                    v-scroll-to="'#tokenomics'"
-                    >{{ $t("tokenomics") }}</a
-                  >
-                </li>
-                <li class="list-inline-item">
-                  <a
-                    class="nav-link page-scroll"
-                    href="#gamefi"
-                    v-scroll-to="'#gamefi'"
-                    >GameFi</a
-                  >
-                </li>
-                <!--                <li class="list-inline-item">-->
-                <!--                  <a class="nav-link page-scroll" href="https://app.myobu.io">{{ $t('dashboard') }}</a>-->
-                <!--                </li>-->
               </ul>
             </div>
           </div>

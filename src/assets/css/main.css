@@ -1699,7 +1699,7 @@ select.form-control.has-value {
 .single-promo-1 {
   box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
   border-radius: 1.5rem !important;
-  padding: 60px 20px 32px;
+  padding: 40px 20px 32px;
   margin-top: 50px;
 }
 
@@ -1730,6 +1730,38 @@ select.form-control.has-value {
   background-image: url("../img/yume.png");
 }
 
+.circle-icon .text-icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  top: -38px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  color: #8d20db;
+  font-weight: bold;
+  border: 2px solid #60aa9c;
+  border-radius: 100%;
+  padding-top: 1px;
+  padding-right: 1px;
+}
+.circle-icon .text-icon-outer {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  top: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  color: #8d20db;
+  border: 12px solid rgb(96 170 156 / 20%);
+  border-radius: 100%;
+  padding-top: 1px;
+  padding-right: 1px;
+}
+
 .hikari-board {
   background-image: url("../img/hikari/board.jpeg");
   width: 100%;
@@ -1743,6 +1775,22 @@ select.form-control.has-value {
   left: 50%;
   transform: translate(-50%, -100%);
   width: 80%;
+}
+.katana-bg {
+  background-image: url(https://user-images.githubusercontent.com/111298477/201521143-bc13bc3d-de7e-413f-bff8-790df4670493.jpg);
+  width: 100%;
+  height: 180px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.katana-bg .release-date {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  top: 30%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .single-promo img {
