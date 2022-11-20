@@ -34,6 +34,25 @@
                 for gaming. Myobu ensures this idea is at the core of developing
                 our own Gamefi ecosystem.
               </p>
+              <p>
+                Our team aims to build serious products with real-life utilities
+                that could benefit the web3 world and individuals' lives.
+              </p>
+              <p>
+                We are a team of developers, designers, and marketers passionate
+                about blockchain technology. We are also a community of crypto
+                enthusiasts building projects that could bring value to the
+                community.
+              </p>
+              <p>
+                We love open source and believe in the power of community. You
+                can find our project codes on our
+                <a href="https://github.com/myobu-guardians" target="_blank"
+                  >Github</a
+                >. We are also open to community contributions and suggestions.
+                If you have any ideas or suggestions, please feel free to reach
+                out to us.
+              </p>
             </div>
           </div>
           <div class="col-md-2"></div>

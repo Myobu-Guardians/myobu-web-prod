@@ -43,8 +43,11 @@
                 <img src="img/redesign/tokenomics-supply.svg" />
                 <ul class="list-tokenomics">
                   <li>
-                    <div class="name">Token name</div>
+                    <div class="name">Token basics</div>
                     <div class="value">Myōbu - $MYOBU</div>
+                    <div class="value">ATH Market Cap - 35 Million USD, November 2021</div>
+                    <div class="value">Launched - July, 2021</div>
+
                   </li>
                   <li>
                     <div class="name">Token Networks</div>
@@ -52,32 +55,74 @@
                       <ul>
                         <li style="margin-left: 0; margin-bottom: 0">
                           <div>
-                            <div>ERC20 (Ethereum)</div>
-                            <a
-                              href="https://etherscan.io/token/0xDfDd3459D4F87234751696840092ee20C970Fb07"
-                              target="_blank"
-                              >0xDfDd3459D4F87234751696840092ee20C970Fb07</a
-                            >
+                            <div>
+                              ETH
+                              <a
+                                href="https://etherscan.io/token/0xDfDd3459D4F87234751696840092ee20C970Fb07"
+                                target="_blank"
+                                >0xDfDd3459D4F87234751696840092ee20C970Fb07</a
+                              >
+                            </div>
                           </div>
                         </li>
                         <li style="margin-left: 0; margin-bottom: 0">
                           <div>
-                            <div>BEP20 (Binance Smart Chain)</div>
-                            <a
-                              href="https://bscscan.com/token/0x4Ef06d1A55962f29D362c53c864a4f0c791DcB9E"
-                              target="_blank"
-                              >0x4Ef06d1A55962f29D362c53c864a4f0c791DcB9E</a
-                            >
+                            <div>
+                              BNB
+                              <a
+                                href="https://bscscan.com/token/0x4Ef06d1A55962f29D362c53c864a4f0c791DcB9E"
+                                target="_blank"
+                                >0x4Ef06d1A55962f29D362c53c864a4f0c791DcB9E</a
+                              >
+                            </div>
                           </div>
                         </li>
                       </ul>
                     </div>
                   </li>
                   <li>
-                    <div class="name">Development Fees</div>
+                    <div class="name">Multisig Team Wallets</div>
+                    <div class="value">
+                      <ul>
+                        <li style="margin-left: 0; margin-bottom: 0">
+                          <div>
+                            <div>
+                              ETH
+                              <a
+                                href="https://etherscan.io/address/0x6f5ffb9FDe0b5F2D8Fda3346AC67FAbE481F6D9b"
+                                target="_blank"
+                                >0x6f5ffb9FDe0b5F2D8Fda3346AC67FAbE481F6D9b</a
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li style="margin-left: 0; margin-bottom: 0">
+                          <div>
+                            <div>
+                              BNB
+                              <a
+                                href="https://bscscan.com/address/0x2BBcDe842EFdC70Ee582bcfEd4D5E0bA47E6FE9A"
+                                target="_blank"
+                                >0x2BBcDe842EFdC70Ee582bcfEd4D5E0bA47E6FE9A</a
+                              >
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="name">Development Tax</div>
                     <div class="value">
                       <div>BUYS: 0% currently</div>
                       <div>SELLS: 5% currently</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="name">Tax Distribution</div>
+                    <div class="value">
+                      <div>50%: Staking contracts</div>
+                      <div>50%: Team wallets for project development, marketing, etc</div>
                     </div>
                   </li>
                   <li>
