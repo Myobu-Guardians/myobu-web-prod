@@ -46,7 +46,7 @@
                     <div class="name">Token basics</div>
                     <div class="value">Myōbu - $MYOBU</div>
                     <div class="value">ATH Market Cap - 35 Million USD, November 2021</div>
-                    <div class="value">Launched - July, 2021</div>
+                    <div class="value">Launched - July 2021</div>
 
                   </li>
                   <li>
