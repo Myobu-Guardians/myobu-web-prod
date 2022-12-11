@@ -6,7 +6,7 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faLanguage, faPowerOff } from "@fortawesome/free-solid-svg-icons";
+import { faBroadcastTower, faDatabase, faGun, faKey, faLanguage, faPerson, faPowerOff, faSitemap } from "@fortawesome/free-solid-svg-icons";
 import {
   faYoutube,
   faMedium,
@@ -17,7 +17,7 @@ import {
   faDiscord,
   faInstagram,
   faTiktok,
-  faGithub
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import VueCompositionAPI from "@vue/composition-api";
@@ -35,7 +35,13 @@ library.add(
   faInstagram,
   faTiktok,
   faGithub,
-  faPowerOff
+  faPowerOff,
+  faKey,
+  faDatabase,
+  faPerson,
+  faBroadcastTower,
+  faSitemap,
+  faGun
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

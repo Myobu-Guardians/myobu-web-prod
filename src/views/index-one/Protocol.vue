@@ -50,7 +50,10 @@
               pt-2
             "
           >
-            <h4>Authentication</h4>
+            <h4>
+              <font-awesome-icon :icon="['fa-solid', 'key']" class="mr-2" />
+              Authentication
+            </h4>
             <p class="text-left" style="font-size: 16px; font-weight: 300">
               The protocol layer authenticates users by simply signing a
               messages with their wallet.
@@ -72,7 +75,13 @@
               pt-2
             "
           >
-            <h4>DATABASE</h4>
+            <h4>
+              <font-awesome-icon
+                :icon="['fa-solid', 'database']"
+                class="mr-2"
+              />
+              DATABASE
+            </h4>
             <p class="text-left" style="font-size: 16px; font-weight: 300">
               Allows users to store/query data on our Myōbu Database without
               paying gas fees.
@@ -94,7 +103,12 @@
               pt-2
             "
           >
-            <h4>PUBSUB</h4>
+            <h4>
+              <font-awesome-icon
+                :icon="['fa-solid', 'tower-broadcast']"
+                class="mr-2"
+              />PUBSUB
+            </h4>
             <p class="text-left" style="font-size: 16px; font-weight: 300">
               Allows PubSub messages to be sent to users without paying gas
               fees.
@@ -116,6 +130,69 @@
             "
           >
             <h4>
+              <font-awesome-icon :icon="['fa-solid', 'person']" class="mr-2" />
+              MNS
+            </h4>
+            <p class="text-left" style="font-size: 16px; font-weight: 300">
+              <a
+                href="https://protocol.myobu.io/#/mns"
+                target="_blank"
+                rel="noreferrer"
+                style="color: #fff; text-decoration: underline !important"
+                >MNS</a
+              >
+              (Myōbu Name Service) is a decentralized naming system that allows
+              users to register human-readable names associated with their
+              wallet addresses.
+            </p>
+            <p class="text-left" style="font-size: 16px; font-weight: 300">
+              MNS works on any EVM compatible blockchain networks.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div
+            class="
+              single-promo single-promo-hover single-promo-1
+              rounded
+              text-center
+              primary-bg
+              pt-2
+            "
+          >
+            <h4>
+              <font-awesome-icon :icon="['fa-solid', 'sitemap']" class="mr-2" />
+              DAO
+            </h4>
+            <p class="text-left" style="font-size: 16px; font-weight: 300">
+              The MYŌBU DAO is a decentralized autonomous organization that is
+              responsible for managing the Myōbu protocol and its ecosystem.
+            </p>
+            <p class="text-left" style="font-size: 16px; font-weight: 300">
+              You can participate in the DAO by staking MYOBU tokens, then make
+              proposals and votes on
+              <a
+                href="https://realm.myobu.io/#/proposals"
+                target="_blank"
+                rel="noreferrer"
+                style="color: #fff; text-decoration: underline !important"
+                >Realm</a
+              >.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div
+            class="
+              single-promo single-promo-hover single-promo-1
+              rounded
+              text-center
+              primary-bg
+              pt-2
+            "
+          >
+            <h4>
+              <font-awesome-icon :icon="['fa-solid', 'gun']" class="mr-2" />
               NFT
               <i
                 class="italic"

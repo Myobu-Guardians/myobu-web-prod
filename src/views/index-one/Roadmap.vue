@@ -66,7 +66,9 @@
                 <ul class="list-unstyled text-sm pricing-feature-list">
                   <li class="checked">myobu.io website update</li>
                   <li>Launch the Myōbu Realm - Friend System</li>
-                  <li>Launch the Myōbu Realm - Proposal & Vote System</li>
+                  <li class="checked">
+                    Launch the Myōbu Realm - Proposal & Vote System
+                  </li>
                   <li>Launch the Myōbu Realm - Game Store</li>
                   <li>Publish Hikari on the Myōbu Realm - Game Store</li>
                   <li>
