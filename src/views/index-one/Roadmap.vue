@@ -46,7 +46,7 @@
           </div>
           <div class="col-lg-3 col-md">
             <div class="card single-pricing-pack">
-              <h5 class="mb-2">{{ $t("Q3 2022") }}</h5>
+              <h5 class="mb-2">{{ $t("Q3~Q4 2022") }}</h5>
               <div class="card-body p-0">
                 <ul class="list-unstyled text-sm pricing-feature-list">
                   <li class="checked">Launch Myōbu Protocol</li>
@@ -55,25 +55,9 @@
                     Launch Myōbu Realm (the initial version)
                   </li>
                   <li class="checked">Launch Hikari Beta</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md">
-            <div class="card single-pricing-pack">
-              <h5 class="mb-2">{{ $t("Q4 2022") }}</h5>
-              <div class="card-body p-0">
-                <ul class="list-unstyled text-sm pricing-feature-list">
                   <li class="checked">myobu.io website update</li>
-                  <li>Launch the Myōbu Realm - Friend System</li>
                   <li class="checked">
                     Launch the Myōbu Realm - Proposal & Vote System
-                  </li>
-                  <li>Launch the Myōbu Realm - Game Store</li>
-                  <li>Publish Hikari on the Myōbu Realm - Game Store</li>
-                  <li>
-                    Publish Hikari NFT card packs on the Myōbu Realm - Game
-                    Store
                   </li>
                 </ul>
               </div>
@@ -84,11 +68,18 @@
               <h5 class="mb-2">{{ $t("2023") }}</h5>
               <div class="card-body p-0">
                 <ul class="list-unstyled text-sm pricing-feature-list">
+                  <li>Develop the new game project - Katana 刀</li>
+                  <li>Launch the Myōbu Realm - Friend System</li>
+                  <li>Launch the Myōbu Realm - Game Store</li>
+                  <li>Publish Hikari on the Myōbu Realm - Game Store</li>
+                  <li>
+                    Publish Hikari NFT card packs on the Myōbu Realm - Game
+                    Store
+                  </li>
                   <li>
                     Improve existing products, such as Myōbu Protocol, MNS,
                     Realm, etc.
                   </li>
-                  <li>Develop the new game project - Katana 刀</li>
                   <li>More trading pairs and more networks support</li>
                   <li>More CEXs listings</li>
                   <li>More marketing and community building</li>
